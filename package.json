@@ -1,0 +1,12 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "A simple set of scripts to use Nunjucks and Node to templatise HTML",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nunjucks-render": "^2.2.1"
+  },
+  "devDependencies": {},
+  "author": "poedgirl",
+  "license": "ISC"
+}

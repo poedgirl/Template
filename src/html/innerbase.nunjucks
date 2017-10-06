@@ -1,0 +1,19 @@
+{% extends "base.nunjucks" %}
+
+{% block header %}
+<div class="container">
+	<a href="/" class="logo">
+		<img src="/images/logo.svg">
+	</a>
+</div>
+{% endblock header -%}
+
+{% block body %}
+<main>
+	{% block content %}{% endblock content %}
+</main>
+{% endblock -%}
+
+{% block footer %}
+COPYRIGHT!
+{% endblock -%}
